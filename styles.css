@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+img {
+    height: 500px
+}
+
+.container {
+    display: flex;
+    border: 5px solid black;
+    width: 60%;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 40%;
+    height: 500px;
+}
+
+.countdown-container {
+    padding: 0 50px;
+}
+
+.header {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.countdown {
+    text-align: center;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 100px 20px 100px 20px 100px 20px 100px;
+    grid-template-rows: auto auto;
+}
+
+.number {
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    padding: 20px 10px;
+    font-size: 24px;
+}
+
+.label {
+    padding: 15px;
+    font-weight: 600;
+}
+
+.colon {
+    margin-top: 1.2rem;
+    font-size: 24px;
+}
